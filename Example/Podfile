@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TalkingData_Example' do
+  pod 'TalkingData', :path => '../'
+
+  target 'TalkingData_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
